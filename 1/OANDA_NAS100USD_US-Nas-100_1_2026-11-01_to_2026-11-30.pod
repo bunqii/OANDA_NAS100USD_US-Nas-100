@@ -1,0 +1,65 @@
+{
+  "pod_version": "4.0",
+  "instrument": "NAS100_USD",
+  "granularity": "M1",
+  "chunk_start": "2026-11-01",
+  "chunk_end": "2026-11-30",
+  "parquet_file": "OANDA_NAS100USD_US-Nas-100_1_2026-11-01_to_2026-11-30.parquet",
+  "data_file": "OANDA_NAS100USD_US-Nas-100_1_2026-11-01_to_2026-11-30.parquet",
+  "row_count": 437,
+  "first_candle": {
+    "time": 1793574000,
+    "Time": "2026-11-01T23:00:00.000000000Z",
+    "open": 28521.4,
+    "high": 28536.3,
+    "low": 28521.3,
+    "close": 28531.4,
+    "volume": 62
+  },
+  "last_candle": {
+    "time": 1793600160,
+    "Time": "2026-11-02T06:16:00.000000000Z",
+    "open": 28670.5,
+    "high": 28680.4,
+    "low": 28670.5,
+    "close": 28672.2,
+    "volume": 691
+  },
+  "csv_file": "OANDA_NAS100USD_US-Nas-100_1_2026-11-01_to_2026-11-30.parquet",
+  "csv_row_count": 437,
+  "csv_first_candle": {
+    "time": 1793574000,
+    "Time": "2026-11-01T23:00:00.000000000Z",
+    "open": 28521.4,
+    "high": 28536.3,
+    "low": 28521.3,
+    "close": 28531.4,
+    "volume": 62
+  },
+  "csv_last_candle": {
+    "time": 1793600160,
+    "Time": "2026-11-02T06:16:00.000000000Z",
+    "open": 28670.5,
+    "high": 28680.4,
+    "low": 28670.5,
+    "close": 28672.2,
+    "volume": 691
+  },
+  "status": "VERIFIED_PARTIAL",
+  "verified_at": "2026-11-02T06:17:49.000000000Z",
+  "generated_at": "2026-11-02T06:17:49.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 1,
+    "chunk_api_blocks": 1,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2026-11-01T00:00:00Z",
+        "to": "2026-11-02T06:17:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
